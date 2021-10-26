@@ -41,11 +41,13 @@ class ShowImage extends Component{
       return(
            <center>
              <img src={this.state.imgSrc} alt=""/>
+             <div>
              <button onClick={this.handleBasketBall}>BasketBall</button>
              <button onClick={this.handleCricket}>Cricket</button>
              <button onClick={this.handlelaptop}>Laptop</button>
              <button onClick={this.handlePubg}>pubg</button>
              <button onClick={this.handleTiger}>Tiger</button>
+             </div>
            </center>
       )
     }
